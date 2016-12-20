@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@android:color/black"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@android:color/black"
+    >
+
+    <Button
+     android:id="@+id/button1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Not"
+    android:text="Asus"
+    />
+    <Button
+         android:id="@+id/button2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="CISCO"
+    android:onClick="Not"
+    />
+    <Button
+         android:id="@+id/button3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Dlinkrouter"
+    android:text="D-Link Router"
+    />
+    <Button
+         android:id="@+id/button4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Linksys"
+    android:onClick="Not"
+    />
+    <Button
+         android:id="@+id/button5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="NetGear"
+    android:onClick="Not"
+    />
+     <Button
+          android:id="@+id/button6"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="TP Link"
+    android:onClick="Not"
+    />
+   
+   
+</LinearLayout>
+</ScrollView>

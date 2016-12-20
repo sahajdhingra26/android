@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@android:color/black"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@android:color/black"
+    >
+
+    <Button
+     android:id="@+id/button1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Not"
+    android:text="Adapter"
+    />
+    <Button
+         android:id="@+id/button2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Not"
+    android:text="Battery"
+    />
+    <Button
+         android:id="@+id/button3"
+    android:layout_width="fill_parent"
+    android:onClick="Not"
+    android:layout_height="wrap_content"
+    android:text="Cooling Pad"
+    />
+    <Button
+         android:id="@+id/button4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:onClick="Not"
+    android:text="Cleaning Kit"
+    />
+    <Button
+         android:id="@+id/button5"
+    android:layout_width="fill_parent"
+    android:onClick="Not"
+    android:layout_height="wrap_content"
+    android:text="DVD Writer"
+    />
+     <Button
+          android:id="@+id/button6"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Harddisklp"
+    android:text="Hard Disk Internal"
+    />
+      <Button
+           android:id="@+id/button7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Not"
+    android:text="Keyboard"
+    />
+      <Button
+           android:id="@+id/button8"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Ramlp"
+    android:text="RAM"
+    />
+   
+         <Button
+              android:id="@+id/button9"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Not"
+    android:text="Screen"
+    />
+   
+   
+   
+</LinearLayout>
+</ScrollView>

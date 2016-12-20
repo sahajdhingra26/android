@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sd.mkcom.app"
+    android:versionCode="4"
+    android:versionName="1.4">
+    <supports-screens android:resizeable="true"
+                  android:smallScreens="true"
+                  android:normalScreens="true"
+                  android:largeScreens="true"
+                  android:xlargeScreens="false"
+                 
+                  android:anyDensity="true"/>
+      
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="sd.mkcom.app.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".homepage"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.homepage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Computer"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Computer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Softwares"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >>
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Softwares" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Networking"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >>
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Networking" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Accessories"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Accessories" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Desktop"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Desktop" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Laptop"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Laptop" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Printer"
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Printer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".Pannel"
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Pannel" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+           <activity
+            android:name=".Desktopacc"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Desktopacc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+             <activity
+            android:name=".Laptopacc"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Laptopacc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           
+            <activity
+            android:name=".Otheracc"
+            android:label="@string/app_name"
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Otheracc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+             
+         <activity
+            android:name=".Router"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Router" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+            
+         
+          <activity
+            android:name=".Usbadapter"
+            android:label="@string/app_name"
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Usbadapter" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Switch"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Switch" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+              <activity
+            android:name=".Cable"
+            android:label="@string/app_name"
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Cable" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+            
+              
+              <activity
+            android:name=".Operatingsystem"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Operatingsystem" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+              
+               <activity
+            android:name=".Antivirus"
+            android:label="@string/app_name"
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Antivirus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+              
+                 <activity
+            android:name=".Acer"
+            android:label="@string/app_name"
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Acer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+               
+                 
+                 <activity
+            android:name=".Dell"
+            android:label="@string/app_name"
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Dell" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                 <activity
+            android:name=".Lenovo"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Lenovo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                 <activity
+            android:name=".Hp"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Hp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                 <activity
+            android:name=".Hcl"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Hcl" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                 <activity
+            android:name=".Compaq"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Compaq" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                   <activity
+            android:name=".Acerlp"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Acerlp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                 
+                   
+                    <activity
+            android:name=".Delllp"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Delllp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                   
+                    
+            <activity
+            android:name=".Hplp"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Hplp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>       
+        
+                     
+            <activity
+            android:name=".Sonylp"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Sonylp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>       
+        
+                     
+            <activity
+            android:name=".Lenovolp"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Lenovolp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>       
+                 
+             <activity
+            android:name=".Toshibalp"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Toshibalp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+              <activity
+            android:name=".Cannonprnt"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Cannonprnt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+              
+              <activity
+            android:name=".HPpanel"
+            android:label="@string/app_name"
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.HPpanel" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+              
+              
+               <activity
+            android:name=".Ram"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Ram" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+               <activity
+            android:name=".Harddisk"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Harddisk" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+              
+                 <activity
+            android:name=".Keyboardlogitech"
+            android:label="@string/app_name"
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Keyboardlogitech" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+                <activity
+            android:name=".Mousetargus"
+            android:label="@string/app_name"
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Mousetargus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+                <activity
+            android:name=".Graphiccard"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Graphiccard" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+                <activity
+            android:name=".Mouselogitech"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Mouselogitech" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+                <activity
+            android:name=".Ups"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Ups" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+                <activity
+            android:name=".Mouseamkette"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Mouseamkette" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+                
+                 <activity
+            android:name=".Mousemicrosoft"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Mousemicrosoft" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+              
+               <activity
+            android:name=".Keyboardmousems"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Keyboardmousems" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+               
+           <activity
+            android:name=".Ramlp"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Ramlp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+               
+            <activity
+            android:name=".Harddisklp"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Harddisklp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+
+            <activity
+            android:name=".Pendrive"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Pendrive" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+            <activity
+            android:name=".Speaker"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Speaker" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+            <activity
+            android:name=".Hdcasing"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Hdcasing" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+             <activity
+            android:name=".Externalhd"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Externalhd" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+            
+             <activity
+            android:name=".Headphone"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Headphone" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+              <activity
+            android:name=".Powerstrip"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Powerstrip" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+            
+              <activity
+            android:name=".Usbhub"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Usbhub" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+            
+              <activity
+            android:name=".Laptopbag"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Laptopbag" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+              
+              <activity
+            android:name=".Usbkeypad"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Usbkeypad" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+              <activity
+            android:name=".Powerbar"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Powerbar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+            
+             <activity
+            android:name=".Adapter"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Adapter" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+             
+             <activity
+            android:name=".Carcharger"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Carcharger" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+             <activity
+            android:name=".Usbbattery"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Usbbattery" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+             <activity
+            android:name=".Multimediappt"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Multimediappt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+             <activity
+            android:name=".Cableothacc"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Cableothacc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+            
+			 <activity
+            android:name=".Pptremote"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Pptremote" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+             
+			 
+			  <activity
+            android:name=".Ipadbackcvr"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Ipadbackcvr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+			 
+			  
+			   <activity
+            android:name=".Ipad2case"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Ipad2case" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+			   <activity
+            android:name=".Dlinkrouter"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Dlinkrouter" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+			   <activity
+            android:name=".Dlinkswitch"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Dlinkswitch" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+			  
+
+			   <activity
+            android:name=".Norton"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Norton" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+			   
+			   <activity
+            android:name=".Tally"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Tally" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+			   
+			   <activity
+            android:name=".Msoffice"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Msoffice" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+			   
+			    <activity
+            android:name=".Windows"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Windows" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+			   
+			     <activity
+            android:name=".Quickheal"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Quickheal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+			   
+			      <activity
+            android:name=".Contact"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Contact" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+			       <activity
+            android:name=".MKC"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.MKC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+			     <activity
+            android:name=".Developer"
+            android:label="@string/app_name" 
+               android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="sd.mkcom.app.Developer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+    </application>
+<uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>

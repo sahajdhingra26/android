@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:background="@android:color/black"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@android:color/black"
+    >
+
+    <Button
+     android:id="@+id/button1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Not"
+    android:text="Cabinet"
+    />
+    <Button
+         android:id="@+id/button2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Not"
+    android:text="Motherboard"
+    />
+    <Button
+         android:id="@+id/button3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Not"
+    android:text="CPU"
+    />
+    <Button
+         android:id="@+id/button4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Ram"
+    android:text="RAM"
+    />
+    <Button
+         android:id="@+id/button5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Harddisk"
+    android:text="Hard Disk"
+    />
+     <Button
+          android:id="@+id/button6"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Not"
+    android:text="DVD Writer"
+    />
+      <Button
+           android:id="@+id/button7"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:onClick="Keyboardlogitech"
+    android:text="Keyboard Logitech"
+    />
+      <Button
+           android:id="@+id/button8"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Mousemicrosoft"
+    android:text="Mouse Microsoft"
+    />
+   
+         <Button
+              android:id="@+id/button9"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Mouseamkette"
+    android:text="Mouse Amkette"
+    />
+   
+            <Button
+                 android:id="@+id/button10"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:onClick="Mouselogitech"
+    android:text="Mouse Logitech"
+    />
+   
+               <Button
+                    android:id="@+id/button11"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Not"
+    android:text="Monitor"
+    />
+   
+                  <Button
+                       android:id="@+id/button12"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:onClick="Graphiccard"
+    android:text="Graphic Card"
+    />
+   
+                     <Button
+                          android:id="@+id/button13"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Not"
+    android:text="Speakers"
+    />
+   
+                        <Button
+                             android:id="@+id/button14"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:onClick="Ups"
+    android:text="UPS Microtek"
+    />
+   
+                           <Button
+                                android:id="@+id/button15"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Keyboardmousems"
+    android:text="Keyboard And Mouse "
+    />
+   
+    <Button
+     android:id="@+id/button16"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:onClick="Mousetargus"
+    android:text="Mouse Targus"
+    />
+   
+</LinearLayout>
+</ScrollView>
